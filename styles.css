@@ -1,2 +1,98 @@
 /******* LANDING PAGE STYLES *******/
 
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+ 
+    background-color: white;
+    color: black;
+}
+
+/* Header content*/
+
+.header {
+    padding: 20px;
+    font-family: "Seravek", Sans-serif;
+    background-color: #E9EDF8;
+    color: black;
+    padding-bottom: 50px;
+}
+
+.logo-button {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+    padding: 20px;
+}
+
+.header h1{
+    margin-left: 50px;
+    margin-bottom: 5px;
+}
+
+.header h2{
+    font-size: 30px;
+    font-weight: 100;
+    margin-left: 50px;
+}
+
+.header p{
+    margin-left: 50px;
+    padding-right: 72%;
+    font-size: small;
+}
+
+.header button {
+    float: right;
+    margin-right: 50px;
+    margin-bottom: 50px;
+}
+
+.header img{
+    display: block;
+    max-width: 60px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+/* Body Content*/
+
+img{
+    max-width: 350px ;
+}
+.content1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px;
+    width: 75%; 
+}
+
+.content2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px;
+    width: 75%; 
+}
+
+.content1 p{
+    margin-right: 60%;
+}
+
+.float-right{
+    float: right;
+    margin-right: 25px;
+
+}
+
+.float-left{
+    float: left;
+    margin-right: 25px;
+}
