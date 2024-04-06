@@ -6,16 +6,19 @@
     margin: 0;
 }
 
-@font-face{
+@font-face {
     font-family: 'Open Sans';
     font-style: regular;
     font-weight: 300;
     src: local('Open Sans Light'), local('OpenSans-Light'),
-         url('../fonts/open-sans/open-sans-v15-latin-300.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-         url('../fonts/open-sans/open-sans-v15-latin-300.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-  }
+        url('../fonts/open-sans/open-sans-v15-latin-300.woff2') format('woff2'),
+        /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('../fonts/open-sans/open-sans-v15-latin-300.woff') format('woff');
+    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
 body {
- 
+
     background-color: white;
     color: black;
     font-family: "Open Sans", sans-serif;
@@ -27,7 +30,6 @@ body {
 .header {
     background-color: #E9EDF8;
     color: black;
-    padding-top: 20px;
     padding-left: 30px;
     padding-bottom: 50px;
 }
@@ -41,7 +43,7 @@ body {
     padding: 20px;
 }
 
-.header h1{
+.header h1 {
     margin-left: 100px;
     margin-bottom: 5px;
     font-size: 50px;
@@ -49,17 +51,16 @@ body {
     font-weight: 700;
 }
 
-.header h2{
+.header h2 {
     font: normal normal normal 50px/52px Open Sans;
     margin-left: 100px;
     font-size: 55px;
     font-weight: 300;
 }
 
-.header p{
+.header p {
     margin-left: 100px;
-    padding-right: 61%;
-    font-size: 20px
+    padding-right: 60%;
 }
 
 .header button {
@@ -68,14 +69,14 @@ body {
     margin-bottom: 50px;
 }
 
-.header img{
+.header img {
     display: block;
     max-width: 90px;
     margin-top: 10px;
     margin-bottom: 50px;
 }
 
-.button{
+.button {
     text-align: center;
     background-color: #2979EC;
     color: white;
@@ -97,29 +98,25 @@ body {
     align-items: center;
     margin-top: 100px;
     margin-left: 130px;
-    width: 75%; 
+    width: 75%;
 }
 
 
-.marketing-tool h1{
-    padding-right: 30%;
+.marketing-tool h1 {
     font-weight: 300;
     padding-bottom: 2%;
 }
 
-.marketing-tool p{
+.marketing-tool p {
     padding-right: 6%;
-    font-size: 17px;
-    margin-right: 25%;
 }
 
-.float-right{
+.float-right {
     float: right;
-    margin-right: 25px;
 }
 
-#tool{
-    width: 575px;
+#tool {
+    width: 560px;
 }
 
 
@@ -131,34 +128,33 @@ body {
     justify-content: center;
     align-items: center;
     margin: 100px auto;
-    width: 75%; 
+    width: 75%;
 }
 
-.content2 h2{
-    margin-right: 35%;
+.content2 h2 {
     font-weight: 100;
     padding-bottom: 40px;
     font-size: 40px;
 }
-.content2 p{
+
+.content2 p {
     margin-right: 16%;
-    font-size: 20px;
 }
 
-.float-left{
+.float-left {
     float: left;
     margin-right: 10%;
 }
 
-#marketing-dep{
+#marketing-dep {
     width: 400px;
 }
 
 /* Footer*/
 
-.footer{
+.footer {
     background-color: #0A459E;
-    padding: 200px;
+    padding: 100px;
     justify-content: center;
     text-align: center;
     color: white;
@@ -166,7 +162,7 @@ body {
     font-weight: 300;
 }
 
-.f-button{
+.f-button {
     padding: 15px 32px;
     font-weight: 600;
     font-size: 16px;
@@ -175,4 +171,184 @@ body {
     background-color: #FFBE3C;
     color: #0A459E;
     border-radius: 50px;
+}
+
+/*mobile responsive*/
+@media only screen and (max-width: 480px) {
+    .body {
+        justify-content: center;
+    }
+
+    .header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .header h1 {
+        margin-left: 0px;
+        padding-right: 100px;
+        padding-left: 80px;
+    }
+
+    .header h2 {
+        margin-left: 0px;
+        padding-right: 100px;
+        padding-left: 80px;
+    }
+
+    .header p {
+        padding-right: 100px;
+        padding-left: 80px;
+        margin-left: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .content1 {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        margin-left: 60px;
+    }
+
+    .content1 h1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        margin-right: 40px;
+    }
+
+    .content1 p {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        margin-right: 40px;
+    }
+
+    #tool {
+        width: 100%;
+        height: auto;
+        margin-right: 50px;
+    }
+
+    .content2 {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+
+    #marketing-dep {
+        width: 100%;
+        height: auto;
+        margin-left: 45px;
+    }
+
+    .content2 h2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .content2 p {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        margin: 0px;
+    }
+
+}
+
+
+@media only screen and (max-width: 768px) {
+    .body {
+        justify-content: center;
+    }
+
+    .header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .header h1 {
+        margin-left: 0px;
+        padding-right: 100px;
+        padding-left: 80px;
+    }
+
+    .header h2 {
+        margin-left: 0px;
+        padding-right: 100px;
+        padding-left: 80px;
+    }
+
+    .header p {
+        padding-right: 100px;
+        padding-left: 80px;
+        margin-left: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .content1 {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        margin-left: 85px;
+    }
+
+    .content1 h1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .content1 p {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+    #tool {
+        margin-bottom: 60px;
+       
+    }
+
+    .content2 {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+
+    #marketing-dep {
+        margin-top: 60px;
+        margin-left: 60px;
+    }
+
+    .content2 h2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .content2 p {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        margin: 0px;
+    }
+
 }
