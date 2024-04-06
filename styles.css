@@ -290,7 +290,7 @@ body {
     .header h2 {
         margin-left: 0px;
         padding-right: 66px;
-        padding-left: 57px;
+        padding-left: 37px;
     }
 
     .header p {
@@ -306,7 +306,7 @@ body {
         display: flex;
         flex-direction: column-reverse;
         justify-content: center;
-        margin-left: 85px;
+        margin-left: 68px;
     }
 
     .content1 h1 {
@@ -336,7 +336,6 @@ body {
 
     #marketing-dep {
         margin-top: 60px;
-        margin-left: 60px;
     }
 
     .content2 h2 {
