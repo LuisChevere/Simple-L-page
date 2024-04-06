@@ -32,8 +32,8 @@ To hopefully land a position in this wonderful Texas based Company.
   - Javascript
 
 ## Deployed App:<br /> 
-  [Launched App]()
-  ![Site Image]()
+  [Launched App](https://luischevere.github.io/Simple-L-page/)
+  ![Site Image](/assets/Screenshot%202024-04-05%20at%209.39.11 PM%20(2).png)
 
  ## Contributions
   - [@LuisChevere](https://github.com/LuisChevere) - Github
