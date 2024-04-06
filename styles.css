@@ -81,9 +81,9 @@ body {
     background-color: #2979EC;
     color: white;
     border-radius: 50px;
-    padding: 15px 32px;
+    padding: 11px 25px;
     font-weight: 600;
-    font-size: 16px;
+    font-size: 11px;
     margin: 4px 2px;
     cursor: pointer;
 }
@@ -161,11 +161,15 @@ body {
     
     font-weight: 300;
 }
+.footer p{
+    font-size: 30px;
+    padding-bottom: 40px;
+}
 
 .f-button {
-    padding: 15px 32px;
+    padding: 11px 25px;
     font-weight: 600;
-    font-size: 16px;
+    font-size: 11px;
     margin: 4px 2px;
     cursor: pointer;
     background-color: #FFBE3C;
