@@ -188,14 +188,15 @@ body {
 
     .header h1 {
         margin-left: 0px;
-        padding-right: 100px;
-        padding-left: 80px;
+       
     }
 
     .header h2 {
-        margin-left: 0px;
-        padding-right: 100px;
-        padding-left: 80px;
+        /* margin-left: 110px;
+        margin-right: 50px;
+        padding-right: 150px;
+        padding-left: 80px; */
+        margin-right: 0px !important;
     }
 
     .header p {
@@ -266,7 +267,7 @@ body {
 }
 
 
-@media only screen and (max-width: 768px) {
+/* @media only screen and (max-width: 768px) {
     .body {
         justify-content: center;
     }
@@ -351,4 +352,4 @@ body {
         margin: 0px;
     }
 
-}
+} */
